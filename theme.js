@@ -141,3 +141,44 @@ console.log(`Number of vowels in "${string}" = ${numberOfVowels}`);
 
 
 
+//Practice prob-4 --> forEach(); method
+let arr = [5, 7, 8, 3, 6, 3, 9, 0, 1];
+
+arr.forEach ((val) => {
+    console.log(`${val}^2 =  ${val ** 2}`);
+});
+
+
+//Practice prob -5 // filter(); method
+let marks = [98, 40, 54, 87, 60, 97, 63, 13, 52, 90, 12, 94];
+
+let newMarks = marks.filter ((val) => {
+    return val >= 90;
+})
+
+console.log(newMarks);
+
+
+
+
+/*
+//REDUCE METHOD
+//Practice prob - 6
+let n = window.prompt("Enter n: ");
+let array = [];
+for (let i = 0; i < n; i++) {
+    array[i] = i + 1;
+}
+
+const s = array.reduce((res, curr) => {
+    return res + curr;
+});
+console.log(s);
+
+
+const m = array.reduce((res, curr) => {
+    return res * curr;
+});
+console.log(m);
+*/
+
