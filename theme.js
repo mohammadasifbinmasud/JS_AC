@@ -94,3 +94,50 @@ console.log(companies);
 
 companies.splice(5, 0, "Amazon");
 console.log(companies);
+
+
+const arrowSum  = (a, b) => {
+    return a + b;
+}
+
+let sum = arrowSum(5, 7);
+console.log(sum);
+
+
+
+//Practice Problem - 3
+function cntVowels (str) {
+    let cnt = 0;
+    str = str.toLowerCase();
+    for (let s of str) {
+        if (s === 'a' || s === 'e' || s === 'i' || s === 'o' || s === 'u') {
+            cnt++;
+        }
+    }
+
+    return cnt;
+}
+
+let string = "Moinul Is An errormaker."; 
+let numOfVowels = cntVowels(string);
+console.log(`Number of vowels in "${string}" = ${numOfVowels}`);
+
+
+//Practice Problem - 3 using Arrow Function
+const countVowels = (str) => {
+    let cnt = 0;
+    str = str.toLowerCase();
+    for (let s of str) {
+        if (s === 'a' || s === 'e' || s === 'i' || s === 'o' || s === 'u') {
+            cnt++;
+        }
+    }
+
+    return cnt;
+}
+
+let numberOfVowels = countVowels(string);
+console.log(`Number of vowels in "${string}" = ${numberOfVowels}`);
+
+
+
