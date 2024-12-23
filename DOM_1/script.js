@@ -8,6 +8,7 @@ console.dir(document.body.childNodes[1]);
 
 document.body.style.backgroundColor = "black";
 document.body.childNodes[3].innerText = "I changed the text through JS";
+document.body.childNodes[3].style.color = "blue";
 
 
 let heading = document.getElementById("nonExistedId");
@@ -20,3 +21,4 @@ console.log(headings); //same as console.dir();
 
 let allElem = document.querySelectorAll("p"); //returns NodeList
 console.dir(allElem);
+
