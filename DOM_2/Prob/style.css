@@ -1,0 +1,13 @@
+.para {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    display: inline-block;
+}
+
+.newPara {
+    background-color: crimson;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
