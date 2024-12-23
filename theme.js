@@ -7,11 +7,13 @@ let button = document.querySelector(".button");
 
 const changeTheme = () => {
     if (theme === "light") {
-        body.style.backgroundColor = "black";
+        body.classList.add("dark");
+        body.classList.remove("light");
         button.innerHTML = "light";
         theme = "dark";
     } else if (theme === "dark") {
-        body.style.backgroundColor = "white";
+        body.classList.add("light");
+        body.classList.remove("dark");
         button.innerHTML = "dark";
         theme = "light";
     }
