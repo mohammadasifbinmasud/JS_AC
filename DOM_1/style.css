@@ -1,0 +1,14 @@
+::selection {
+    color: red;
+    background-color: green;
+}
+body {
+    background-color: greenyellow;
+}
+h1 {
+    color: greenyellow;
+}
+
+p {
+    color: white;
+}
