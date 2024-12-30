@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc-fig {
+    height: 51rem;
+    width: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    margin-top: 3rem;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.screen {
+    height: 10rem;
+    width: 31rem;
+    background-color: rgb(189, 255, 255);
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 5rem;
+
+}
+
+.btn-box {
+    height: 41rem;
+    width: 33rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.btn {
+    height: 7rem;
+    width: 7rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    font-size: 2.5rem;
+}
