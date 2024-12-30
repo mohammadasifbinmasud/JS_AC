@@ -37,7 +37,7 @@ const playGame = (userChoice) => {
     const compChoice = genCompChoice();
 
     if(userChoice === compChoice) {
-        msg.innerText = "Gamme was Draw. Play again.";
+        msg.innerText = "Game was Draw. Play again.";
         msg.style.backgroundColor = "#081b31";
     } else {
         let userWin = true;
