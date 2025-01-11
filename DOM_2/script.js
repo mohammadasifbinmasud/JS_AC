@@ -20,11 +20,11 @@ div.style.color = "red";
 div.backgroundColor = "green";
 
 
-ndiv.append(div);
+// ndiv.append(div);
 // ndiv.prepend(div);
 // ndiv.before(div);
-// ndiv.after(div);
+ndiv.after(div);
 
 
 //DELETE
-div.remove();
+// div.remove();
