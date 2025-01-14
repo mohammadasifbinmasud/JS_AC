@@ -145,7 +145,6 @@
 //         console.log(res);
 //     });
 // });
-
 //approach -2
 // getData(1)
 //     .then((res) => {
@@ -163,6 +162,8 @@
 //     .then((res) => {
 //         console.log(res);
 //     });
+
+
 
 
 
